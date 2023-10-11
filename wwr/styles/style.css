@@ -1,17 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-title {  margin-top: 10px;}
+#logo_link {  padding-top: 5px;
+}
+.icon {  padding-top: 10px;
+}
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
+div {text-align: center;}
+
+.msg{
+    background-color: #f7a072;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 100px;
+}
+.msg p{
+    font-size: .8em; 
+    padding: 15px;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{   margin: 200px 0; 
+}     
+    
 #hero-msg h1{
     text-align: center;
 }
 #hero-msg h2{
     text-align: center;
 }
+
 .button_box {
     text-align: center;
 }
@@ -22,11 +48,23 @@ main section{
 #background {
     height: 725px;
 }                
+header {background-color:rgba(20,30,13, .7);}
+
 body {
-    background-color: green; 
+    background-color:green;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-header {
-    background-color:rgba(20,30,13, .7);
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+h2 {
+    margin: 0;
 }
 nav a:hover {
     background-color:red ;
@@ -36,10 +74,20 @@ nav a:hover {
     background-color: deepskyblue;
     color: blue;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
-.book:hover, .join:hover{
+.book:hover{background-color: #f7a072;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join:hover{
     background-color: blue ;
-    color: blue;
+    color:pink;
 }
 #background{
     background-color: gold;
@@ -48,11 +96,14 @@ nav a:hover {
 .msg{
     background-color: antiquewhite ;
     color: red;
+    padding: 35px;
 }
 footer{
     background-color:black;
     color:whitesmoke;
     -webkit-text-fill-color: aqua;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
@@ -64,6 +115,8 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer .social img  { padding-top: 15px;
+}
                   
 
 .logo {

@@ -46,17 +46,13 @@ nav a {
 }
 main section{
     text-align: center;
-}
-
-#background {
-    height: 725px;
-}                
+}               
 header {background-color:rgba(20,30,13, .7);}
 
 body {
     background-color:green;
     font-family: Raleway, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 2em;
     margin: 0;
     padding: 0;
 }
@@ -79,6 +75,7 @@ nav a:hover {
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
+    font-size: 18px;
 }
 .book:hover{background-color: #f7a072;
     color: white;
@@ -92,14 +89,19 @@ nav a:hover {
     background-color: blue ;
     color:pink;
 }
+
 #background{
-    background-color: gold;
+    background-color:gold;
     color: brown;
+    height: 725px;
+    margin-bottom: 100px;
+
 }
 .msg{
     background-color: antiquewhite ;
     color: red;
     padding: 35px;
+    margin-top: 200px;
 }
 footer{
     background-color:black;

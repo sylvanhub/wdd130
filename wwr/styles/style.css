@@ -211,6 +211,45 @@ footer p a:hover {
 }
 
 
+/* page two styles */
+
+#rivers{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+.river-snakes{
+    width: 700px;
+    height: 500px;
+    box-shadow: 5px 5px 10px #5f7364;
+    margin-top: 200px;
+    grid-column: 6/10;
+    
+
+}  
+.msg2{
+    grid-template-columns:repeat(10 , 1fr) ;
+    background-color: antiquewhite ;
+    color: red;
+    width: 700px;
+    height: 500px;
+    grid-column: 2/5;
+    margin-top: -500px;
+}
+.home-titleB{
+margin-top: 10px;
+color: white;
+font-size: 2em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: uppercase;
+justify-items: center;
+margin-top: -300px;
+display:grid;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

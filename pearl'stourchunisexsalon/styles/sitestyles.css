@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,7 +7,10 @@
 #logo_link {  
     padding-top: 5px;
     justify-self: center;
-    align-self: center;
+    align-self: center;    
+}
+.logo{
+  border-radius: 50%;
 }
 
 .logo {
@@ -29,6 +31,12 @@ body {
     margin-top: 100px;
     margin-inline: 100px;
 }
+.activities-visitors{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 100px;
+  margin-inline: 100px;
+}
 
 .Mr-gabriel {
     grid-column: 1/2;
@@ -44,7 +52,16 @@ body {
     grid-column: 5/6;
     grid-row: 2/3;
 }
-
+.john{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  color: #ccc;
+}
+.msg2{
+  grid-column: 3/6;
+  grid-row: 2/3;
+  color: #ccc;
+}
 .msg {
     grid-column: 1/6;
     grid-row: 4;
@@ -64,11 +81,13 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    margin-inline: 100px;
+    margin-bottom:-100px;
 }
 
 footer {
-    background-color: #d68c45;
-    color: #4c956c;
+    background-color: #4c956c;
+    color: white;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;

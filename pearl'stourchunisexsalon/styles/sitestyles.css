@@ -42,23 +42,42 @@ body {
     grid-column: 1/2;
     grid-row: 2/3;
 }
-
 .hair-studio {
     grid-column: 3/4;
     grid-row: 2/3;
 }
+.training{
+  grid-column: 6/6;
+  grid-row: 2/3;
+  color: #f1f1f1;
 
+}
+#training-img{
+  width: 500px;
+  height: 500px;
+}
 .miss-ilori {
     grid-column: 5/6;
     grid-row: 2/3;
 }
 .john{
   grid-column: 1/2;
-  grid-row: 2/3;
-  color: #ccc;
+  grid-row: 3/4;
+  color: #f1f1f1;
 }
 .msg2{
   grid-column: 3/6;
+  grid-row: 2/3;
+  color: #f1f1f1;
+}
+.home-visitor3{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: 100px;
+  margin-top: 100px;
+}
+.msg3{
+  grid-column: 1/5;
   grid-row: 2/3;
   color: #ccc;
 }
